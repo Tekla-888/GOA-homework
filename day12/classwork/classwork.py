@@ -1,24 +1,10 @@
-name=input("enter your name:" )
-print(name)
-print(type(name))
+print(True or False) #True
+print(False or True) #True
+print(False or False)# False
+print(True or True)# True
 
 
-surname=input("enter your surname:")
-print(surname)
-print(type(surename))
-
-
-
-age=input("enter your age:")
-print(age)
-print(type(age))
-
-
-num1=input("enter number1")
-print(num1)
-print(type(num1))
-
-
-num2=input("enter number2 :")
-print(num2)
-print(type(num2))
+print(True and False) #False
+print(False and True) #False
+print(False and False)#False
+print(True and True)#True

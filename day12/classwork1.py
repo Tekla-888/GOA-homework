@@ -1,6 +1,17 @@
 
-num1=input(9)
-num2=input(8)
+num1=int(input("Enter your number1 :"))
 
-print(num1+num2)
+num2=int(input("Enter your  number2:"))
+print(num1 > 30 and num2 < 40)
+
+
+
+
+
+
+
+
+
+
+
 
