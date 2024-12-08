@@ -1,9 +1,11 @@
-correct_password="0912"
+correct_username = "user66"
+correct_password = "1234"
 
-while True:
-    password=input("Enter  password:")
-    if password==correct_password:
-        print("password is write")
-        break
-    else:
-        print("password isn't write try again.")
+user_input1 = input("Enter username: ")
+user_password = input("Enter password: ")
+
+while (user_input1 != correct_username) or (user_password != correct_password):
+    print("Incorrect info")
+    user_input1 = input("Enter username: ")
+    user_password = input("Enter password: ")
+print("Correct username and correct password. logged in")
