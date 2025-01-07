@@ -1,0 +1,23 @@
+p {
+    color: blue;
+    background-color: blueviolet;
+    text-align: center; 
+    font-size: large;
+    font-weight: 700;
+
+
+    border: 4px burlywood dotted;
+
+}
+
+div {color: red;
+    background-color: rgb(43, 226, 189);
+    text-align: right; 
+    font-size: large;
+    font-weight: 600;
+
+
+   border: 4px rgb(155, 222, 135) dotted;
+
+
+}

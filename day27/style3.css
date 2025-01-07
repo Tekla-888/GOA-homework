@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:darkblue;
+    color: white;
+  }
+div{
+    text-align: center;
+}
+ 
+h6{
+    color: dodgerblue;
+}
+  
+header{
+    font-size: smaller;
+}
+button{
+    color: azure; background-color: deepskyblue;
+}
+
+h3{
+    color: black;
+}
+p{
+    color: black; text-align: center;
+}
+
+tr{
+    border: solid; background-color: white;
+}
+
+td{
+    border:solid ;
+}
