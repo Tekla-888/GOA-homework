@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
+
+
+
+body{
+    font-family: "indian"
+}
+
+@font-face {
+    font-family:"indian" ;
+    src: url();
+}
