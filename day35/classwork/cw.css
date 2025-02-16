@@ -1,0 +1,20 @@
+
+a {
+    font-size: 16px;
+    font-weight: normal;
+    color: #000000; 
+    text-decoration: none; 
+    transition: all 0.3s ease; 
+  }
+  
+  a:hover {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+  }
+  
+  a:active {
+    font-size: 14px;
+    font-weight: lighter;
+    color: #008000; 
+  }

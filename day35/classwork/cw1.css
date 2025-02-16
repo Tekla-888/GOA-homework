@@ -1,0 +1,10 @@
+table {
+    border-collapse: collapse; /* Collapse borders so they don't appear double */
+    width: 100%;
+  }
+  
+  th, td {
+    border: 5px solid green; /* Set a 5px solid green border for all cells */
+    padding: 8px; /* Add 8px of padding inside each cell */
+    text-align: left; /* Align text to the left within cells */
+  }

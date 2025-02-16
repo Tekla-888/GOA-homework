@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Light gray background for header */
+  }
+  
+  /* Optional: Add hover effect to rows */
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Style the header row with orange background and white text */
+  thead tr {
+    background-color: #FF8C00; /* Orange background */
+    color: white; /* White text */
+  }
