@@ -1,0 +1,6 @@
+div{
+   
+  border: 1px solid #ccc; /* Adds a thin gray border */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adds a shadow: offset 2px right and down, blur 5px, color - gray with transparency */
+  padding: 20px; /* Adds internal padding for the text */
+}

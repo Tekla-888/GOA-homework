@@ -7,3 +7,9 @@ input[type="email"] {
   width: 300px; /* Set the width to 300px */
   box-sizing: border-box; /* Include padding and border in the width */
 }
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #007bff; /* Change border color to blue on focus */
+  outline: none; /* Remove the default focus outline */
+}

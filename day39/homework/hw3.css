@@ -1,0 +1,18 @@
+.error-message {
+    color: red;
+    font-size: 14px; 
+    margin-top: 5px;
+    display: flex; 
+  }
+  
+  .error-message::before {
+    content: "!"; 
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5px; 
+  }

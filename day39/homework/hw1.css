@@ -1,0 +1,12 @@
+input[type="submit"] {
+    background-color: #007bff; /* Set the background color to blue */
+    color: white; /* Set the text color to white */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none; /* Remove the default border */
+    border-radius: 5px; /* Round the corners by 5px */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darken the background color on hover */
+}
