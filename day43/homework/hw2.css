@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #FF9933; 
+    color: white;
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  .left-sidebar, .main-content, .right-sidebar {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .left-sidebar {
+    background-color: #3399FF; 
+  }
+  
+  .main-content {
+    background-color: #666699; 
+  }
+  
+  .right-sidebar {
+    background-color: #33CC33; 
+  }

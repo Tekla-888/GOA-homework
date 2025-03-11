@@ -1,0 +1,13 @@
+div{
+    color: aliceblue;
+    background-color: rgb(6, 104, 104);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 10px 7px 7px 7px;
+
+}
+
+
+#h{
+    color: coral;
+}

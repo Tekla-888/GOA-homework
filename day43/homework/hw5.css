@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Светло-серый фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    gap: 20px; /* Расстояние между элементами */
+  }
+  
+  .item {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #333; 
+    color: white;
+  }
+  
+  .blue {
+    background-color: #00BFFF; 
+  }
+  
+  .green {
+    background-color: #008000; 
+  }
+  
+  .orange {
+    background-color: #FF9933; 
+  }
+  
+  .yellow {
+    background-color: #FFD700; 
+  }

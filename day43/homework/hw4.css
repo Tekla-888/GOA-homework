@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main {
+    width: 300px; /* Задаем ширину контейнера */
+    margin: 20px auto; /* Центрируем контейнер */
+    border: 2px solid #ccc; /* Добавляем рамку */
+  }
+  
+  header, .hero, .content, .sidebar, footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  header {
+    background-color: #00BFFF; 
+  }
+  
+  .hero {
+    background-color: #FF5733;
+  }
+  
+  .content {
+    background-color: #008000; 
+  }
+  
+  .sidebar {
+    background-color: #9370DB; 
+  }
+  
+  footer {
+    background-color: #808080; 
+  }
