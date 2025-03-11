@@ -1,0 +1,20 @@
+.flex-container {
+    display: flex;
+    justify-content: space-around; /* Distribute items evenly */
+    align-items: flex-start; /* Align items to the top by default */
+    background-color: #f0f0f0; /* Light gray background for container */
+    padding: 20px;
+    height: 300px; /* Set a height for the container to see vertical alignment */
+}
+
+.flex-item {
+    background-color: #ddd; /* Darker gray background for items */
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px; /* Rounded corners */
+}
+
+.align-bottom {
+    align-self: flex-end; /* Align this item to the bottom */
+}

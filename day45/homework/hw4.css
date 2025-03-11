@@ -1,0 +1,15 @@
+.flex-container {
+    display: flex;
+    justify-content: space-around; /* Distribute items evenly */
+    background-color: #f0f0f0; /* Light gray background for container */
+    padding: 20px;
+    flex-direction: row-reverse; /* Reverse the order of flex items */
+}
+
+.flex-item {
+    background-color: #ddd; /* Darker gray background for items */
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px; /* Rounded corners */
+}
