@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 150px); 
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+  }
+  
+  
+  .square {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+  }
+  
+.red { background-color: darkred;
+ }
+
+  .green { background-color: green; }
+  .blue { background-color: blue; }
+  .purple { background-color: purple; }
+  .fostar { background-color: gray; }
+  .empty { background-color: transparent; }

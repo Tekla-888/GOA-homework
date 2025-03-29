@@ -1,0 +1,11 @@
+.container {
+    width: 500px; /* Adjust as needed */
+    border: 1px solid #ccc; /* Optional: For visualization */
+    position: relative; /* Required for absolute positioning */
+  }
+  
+  .right-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }

@@ -1,0 +1,13 @@
+/* style.css */
+
+.left-image {
+    float: left;
+    margin-right: 10px; /* Optional: adds space between image and text */
+    margin-bottom: 5px; /* Optional: adds space below the image */
+  }
+  
+  /* Optional: styling for the paragraph */
+  
+  p {
+    text-align: justify; /* Justifies the text */
+  }

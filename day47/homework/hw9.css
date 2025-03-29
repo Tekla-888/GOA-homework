@@ -1,0 +1,17 @@
+/* style.css */
+
+.element1 {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    position: relative; /* Required for top/bottom/left/right */
+  }
+  
+  .element2 {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    position: relative; /* Required for top/bottom/left/right */
+    top: 50px; /* Adjust this value to create the gap */
+    left: 150px; /* Adjust this value to position the second element */
+  }

@@ -1,0 +1,11 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    position: relative; /* Required for top/bottom adjustments */
+  }
+  
+  .moved-up {
+    position: relative;
+    top: -20px; /* Adjust this value to move the box up */
+  }

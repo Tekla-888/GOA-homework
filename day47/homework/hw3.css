@@ -1,0 +1,28 @@
+.container {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    position: relative;
+    padding: 10px;
+  }
+  
+  .bottom-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .flex-container {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  
+  .flex-container button{
+    align-self: center;
+  }

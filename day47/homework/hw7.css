@@ -1,0 +1,31 @@
+.container {
+    width: 400px; /* Adjust as needed */
+    border: 1px solid #ccc; /* Optional: for visual container */
+    overflow: hidden; /* Clear floats if using floats */
+  }
+  
+  .left-box, .right-box {
+    width: 50%; /* Each box takes up 50% of the container */
+    height: 100px; /* Adjust as needed */
+    box-sizing: border-box; /* Include padding and border in width/height */
+  }
+  
+  .left-box {
+    background-color: lightblue;
+    float: left; /* Align left */
+  }
+  
+  .right-box {
+    background-color: lightgreen;
+    float: left; /* Align left, next to the previous float */
+  }
+  
+ 
+  .left-box {
+      background-color: lightblue;
+  }
+  
+  .right-box {
+      background-color: lightgreen;
+  }
+  
