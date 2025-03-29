@@ -1,0 +1,9 @@
+/* style.css */
+
+.rotate-icon img {
+    transition: transform 0.3s ease; /* Smooth rotation transition */
+  }
+  
+  .rotate-icon:hover img {
+    transform: rotate(15deg); /* Rotate 15 degrees on hover */
+  }

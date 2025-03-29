@@ -1,0 +1,10 @@
+/* style.css */
+
+.hover-text {
+    color: black; /* Initial text color */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .hover-text:hover {
+    color: purple; /* Color on hover */
+  }

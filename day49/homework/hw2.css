@@ -1,0 +1,10 @@
+
+/* style.css */
+
+.scale-image {
+    transition: transform 0.3s ease; /* Smooth scaling transition */
+  }
+  
+  .scale-image:hover {
+    transform: scale(1.1); /* Scale up by 10% on hover */
+  }

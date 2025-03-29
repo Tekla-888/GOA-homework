@@ -1,0 +1,17 @@
+/* style.css */
+
+.hover-button {
+    background-color: lightblue;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer; /* Changes cursor to a pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .hover-button:hover {
+    background-color: lightcoral; /* Change to the desired hover color */
+  }

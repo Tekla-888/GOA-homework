@@ -1,0 +1,17 @@
+/* style.css */
+
+.padding-box {
+    width: 150px;
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; /* Initial padding */
+    transition: padding 0.3s ease; /* Smooth padding transition */
+    box-sizing: border-box; /* Include padding in width/height */
+  }
+  
+  .padding-box:hover {
+    padding: 30px; /* Increased padding on hover */
+  }

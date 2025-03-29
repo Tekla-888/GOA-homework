@@ -1,0 +1,18 @@
+/* style.css */
+
+.shadow-card {
+    width: 200px;
+    height: 150px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Initial shadow */
+    transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  
+  .shadow-card:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4); /* Shadow on hover */
+  }

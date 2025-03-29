@@ -1,0 +1,15 @@
+/* style.css */
+
+.border-box {
+    width: 150px;
+    height: 100px;
+    border: 2px solid blue; /* Initial border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: border-width 0.3s ease; /* Smooth border-width transition */
+  }
+  
+  .border-box:hover {
+    border-width: 8px; /* Border thickness on hover */
+  }

@@ -1,0 +1,14 @@
+.rotate-element {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; /* ცვლის კურსორს დაწკაპუნებადზე */
+    transition: transform 0.3s ease; /* გლუვი გადასვლის ეფექტი */
+  }
+  
+  .rotate-element:active {
+    transform: rotate(30deg); /* ბრუნავს 30 გრადუსით დაწკაპუნებისას */
+  }

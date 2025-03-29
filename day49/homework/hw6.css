@@ -1,0 +1,17 @@
+/* style.css */
+
+.press-button {
+    background-color: lightblue;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.1s ease; /* Short transition for quick effect */
+  }
+  
+  .press-button:active {
+    transform: scale(0.95); /* Scale down slightly when clicked */
+  }

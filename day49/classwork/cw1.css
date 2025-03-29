@@ -1,0 +1,18 @@
+.active-block {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: font-size 1s ease, color 2s ease, background-color 2s ease;
+  }
+  
+  .active-block:active {
+    font-size: 25px;
+    color: black;
+    background-color: white;
+  }
