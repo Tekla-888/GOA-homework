@@ -1,0 +1,28 @@
+.myDiv {
+    height: 140px;
+    width: 140px;
+    
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(51, 185, 230);
+    animation-name: box;
+    animation-duration: 10s;
+
+  }
+  
+  
+  
+  @keyframes  box{
+    from{
+        top:400px ;
+        left: 10px; 
+     
+} 
+
+to{background-color: red;
+    top:400px ;
+    left:1000px; 
+  
+}
+  }

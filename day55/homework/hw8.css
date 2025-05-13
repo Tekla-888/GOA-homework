@@ -1,0 +1,28 @@
+.myDiv {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    position: absolute;
+   
+    background-color: rgb(51, 218, 230);
+    animation-name: ball;
+    animation-duration: 10s;
+
+    
+
+  }
+  
+  
+  
+  @keyframes  ball{
+    from{
+        top:100px ;
+        left: 100px;
+        
+     
+} 
+to{
+    background:white ;
+  
+}
+  }

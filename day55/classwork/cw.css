@@ -1,0 +1,7 @@
+.animated-element {
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    animation: backgroundColorChange 5s linear infinite;
+  }
+  

@@ -1,13 +1,12 @@
-def get_number_input():
-  """Prompts the user for a number and handles invalid input."""
-  while True:  # Loop until valid input is received
-    try:
-      user_input = input("Enter a number: ")
-      number = float(user_input)  # Attempt to convert to float
-      return number  # Return the number if conversion is successful
-    except ValueError:
-      print("Error: Invalid input. Please enter a valid number.")
+def add_integer_to_string():
+    """Tries to add an integer to a string and handles TypeError."""
+    my_string = "Hello"
+    my_integer = 10
 
-# Example usage:
-user_number = get_number_input()
-print(f"You entered: {user_number}")
+    try:
+        result = my_string + my_integer
+        print(result)  # This line will not be executed due to the TypeError
+    except TypeError:
+        print("Error: Cannot concatenate string and integer. You must convert the integer to a string first.")
+
+add_integer_to_string() 

@@ -1,0 +1,48 @@
+.myDiv {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+
+    background-color: rgb(233, 219, 23);
+    animation-name: circle;
+    animation-duration: 7s;}
+     
+  @keyframes  circle{
+    0%{
+        top:300px ;
+        left:150px; 
+     
+} 
+
+10%{
+     top:300px ;
+     left: 560px; 
+     transform: scale(3);
+}
+
+30%{
+    top:300px;
+    left: 720px; 
+    transform: scale(0.5);
+}
+
+50%{
+    top:300px ;
+    left: 800px; 
+    transform: scale(3);
+}
+80%{
+    top:300px ;
+    left: 850px; 
+    transform: scale(0.5);
+}
+100%{
+    top:300px ;
+    left: 1050px; 
+    transform: scale(3);
+}
+
+
+  }
+  

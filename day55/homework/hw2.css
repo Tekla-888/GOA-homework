@@ -1,0 +1,25 @@
+.myDiv {
+    height: 140px;
+    width: 140px;
+    
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(51, 185, 230);
+    animation-name: rotation;
+    animation-duration: 10s;
+
+  }
+  
+  
+  
+  @keyframes  rotation{
+    from{
+        top:400px ;
+        left: 10px; 
+     transform: scale(1);
+} 
+
+to{transform: scale(3);
+}
+  }

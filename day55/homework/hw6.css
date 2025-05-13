@@ -1,0 +1,19 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+  }
+  
+  .animate-loop {
+    animation: move 2s linear infinite;
+  }
+  
+  .animate-once {
+    animation: move 2s linear;
+  }
+  
+  @keyframes move {
+    0% { left: 0; }
+    100% { left: 200px; }
+  }

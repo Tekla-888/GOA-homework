@@ -1,0 +1,32 @@
+.myDiv {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    position: absolute;
+   
+    background-color: rgb(230, 51, 105);
+    animation-name: ball;
+    animation-duration: 10s;
+    animation-iteration-count:3;
+    transform-origin: top left;
+
+  }
+  
+  
+  
+  @keyframes  ball{
+    from{
+        top:400px ;
+        left: 100px;
+        
+     
+} 
+to{
+    transform: rotate(90deg);
+    top:400px ;
+    left: 100px;
+    
+ 
+} 
+
+  }
